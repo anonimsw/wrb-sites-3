@@ -1,0 +1,53 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    background: url(../../assets/gl-bg.png), ;
+    background-color: #fff;
+    padding: 0.5rem 0;
+    z-index: 1;
+
+    .nav--container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link--home {
+            width: 5%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            li {
+                font-size: 12px;
+                font-weight: normal;
+            }
+        }
+
+        a {
+            color: #000;
+        }
+    }
+}
+
+.nav--scroll {
+    transition: all 0.3s ease;
+    padding: 1rem 0;
+    background: none;
+    z-index: 1;
+
+    .nav--container {
+        a {
+            color: #fff;
+        }
+    }
+}
